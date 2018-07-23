@@ -14,7 +14,7 @@ module.exports = {
 	// Filter out some files or folders.
 	nameFilters: [(name) => name.startsWith('_reserve'), (name) => name === 'backups'],
 	nameConverter: (name) => name.toLowerCase(),
-	// Whether to dump the
+	// Whether to generate site in the no-trailing-slash mode.
 	noTrailingSlash: true,
 	folderIndexConversion: true,
 };

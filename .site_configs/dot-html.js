@@ -1,5 +1,5 @@
 const path = require('path');
-const configs = require('./index');
+const configs = require('./no-trailing-slash');
 
 module.exports = {
 	...configs,
