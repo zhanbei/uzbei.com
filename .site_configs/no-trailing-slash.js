@@ -12,7 +12,10 @@ module.exports = {
 	mdListTemplateName: 'list.ejs',
 	assetsDir: path.resolve(__dirname, 'github/assets'),
 	// Filter out some files or folders.
-	nameFilters: [(name) => name.startsWith('_reserve'), (name) => name === 'backups', (name)=> name === 'README.md'],
+	nameFilters: [
+		(name) => name.startsWith('_reserve'),
+		(name) => ['backups', 'README.md', 'Drafts'].includes(name),
+	],
 	nameConverter: (name) => name.toLowerCase(),
 	// Whether to generate site in the no-trailing-slash mode.
 	noTrailingSlash: true,
