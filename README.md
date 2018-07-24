@@ -11,6 +11,7 @@ Blogs of Yu Zhanbei, technically and personally.
 - /content-management-of-a-blog-site
 - /how-to
 	- /start-a-project
+	- /seek-suggestions-and-get-inspirations
 
 ## Structure of Posts
 
@@ -18,4 +19,5 @@ Blogs of Yu Zhanbei, technically and personally.
 - An Implementation of Soft Deletion
 - Content Management of a Blog Site
 - How to
+	- Seek Suggestions and Get Inspirations
 	- Start a Project
