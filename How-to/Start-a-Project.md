@@ -76,16 +76,24 @@ This can be misleading if your project goes *bigger*. You have to upgrade your p
 
 ## Some Formats of Writing Documents
 
-- Outlines of Something
+- Outlines of Something - A
 	- `[${module-name}](/${module-path})`
 		- [`${some-state}`] **${module-name}**
 		- [`${some-state}`] ${actions-to-be-done}
 	- `[Sign-In](/sign-in)`
 		- [`Not-Signed-In`] **Sign-In-Panel**
 		- [`Already-Signed-In-Without-Linked-Account`] Hint to create a user(Individual) account.
+- Outlines of Something - B
 	- `[${module-name}](/${module-path})`
 		- **${module-name}** [`${some-state}`]
 		- ${actions-to-be-done} [`${some-state}`]
 	- `[Sign-In](/sign-in)`
 		- **Sign-In-Panel** [`Not-Signed-In`]
 		- Hint to create a user(Individual) account. [`Already-Signed-In-Without-Linked-Account`]
+- Outlines of Something - C
+	- **${module-name}** (`/${module-path}`)
+		- **${module-name}** `[${some-state}]`
+		- ${actions-to-be-done} `[${some-state}]`
+	- **Sign-In** (`/sign-in`)
+		- **Sign-In-Panel** `[Not-Signed-In]`
+		- Hint to create a user(Individual) account. `[Already-Signed-In-Without-Linked-Account]`
