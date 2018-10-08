@@ -10,6 +10,7 @@ Blogs of Yu Zhanbei, technically and personally.
 - /an-implementation-of-soft-deletion
 - /content-management-of-a-blog-site
 - /followers-followings-and-separated-accounts
+- /things-to-be-carried
 - /how-to
 	- /start-a-project
 	- /seek-suggestions-and-get-inspirations
@@ -20,6 +21,7 @@ Blogs of Yu Zhanbei, technically and personally.
 - An Implementation of Soft Deletion
 - Content Management of a Blog Site
 - Followers, Followings, and Multiple/Separated Accounts
+- Things to be Carried
 - Get Started With
 
  Get started with *programming languages*, *terminal commands and applications*, *desktop IDEs*, *operating systems*, *technical tools*, and things alike.
