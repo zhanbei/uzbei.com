@@ -16,6 +16,7 @@ Blogs of Yu Zhanbei, technically and personally.
 	- /jetbrains-developer-tools
 - /introducing
 	- /some-chrome-extensions-that-help-developers.md
+	- /web-assistant
 - /how-to
 	- /start-a-project
 	- /seek-suggestions-and-get-inspirations
@@ -38,6 +39,7 @@ Blogs of Yu Zhanbei, technically and personally.
 	Introducing some tools/softwares/libraries/frameworks/websites/products.
 
 	- Some Chrome Extensions that Help Developers
+	- Web Assistant
 - How to
 	- Seek Suggestions and Get Inspirations
 	- Start a Project
