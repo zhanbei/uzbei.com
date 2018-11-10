@@ -14,6 +14,21 @@ keys:
 
 Get started with [JetBrains Developer Tools](https://www.jetbrains.com/ "JetBrains: Developer Tools for Professionals and Teams").
 
+## Editor
+
+- Code Style
+	- _
+		- Hard wrap at: `135` columns.
+			- For verbose languages, like JavaScript or Java,
+			use a greater number may cut your code lines down a lot and hence be better.
+			- Can also be set to like `150` columns following you desires.
+		- Visual guides: `75, 100, 125` columns.
+			- Add visual guides to notice yourself where to wrap manually and properly.
+	- for `panel` in `[CSS, HTML, JavaScript, TypeScript, JSON, Less, XML, 'Other File Types']` apply:
+		- [x] Use tab character.
+			- [x] Smart tabs.
+		- Indent: `4`
+
 ## Plugins To Be Installed
 
 - Edit Files in Vim Mode [`Recommended`]
@@ -28,6 +43,15 @@ Get started with [JetBrains Developer Tools](https://www.jetbrains.com/ "JetBrai
 
 - Add `Ctrl + Esc` to `Close` anything;
 - Add `Ctrl + Alt + L` to `Format Code`;
+
+## Languages & Frameworks
+
+- JavaScript
+	- _
+		- JavaScript language version `ECMAScript 6`.
+- Node.js and NPM
+	- [x] Coding assistant for Node.js
+
 
 ## Configurations
 

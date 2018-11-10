@@ -12,6 +12,8 @@ Blogs of Yu Zhanbei, technically and personally.
 - /followers-followings-and-separated-accounts
 - /the-design-of-entities-editor
 - /things-to-be-carried
+- /get-started-with
+	- /jetbrains-developer-tools
 - /how-to
 	- /start-a-project
 	- /seek-suggestions-and-get-inspirations
@@ -26,7 +28,7 @@ Blogs of Yu Zhanbei, technically and personally.
 - Things to be Carried
 - Get Started With
 
- Get started with *programming languages*, *terminal commands and applications*, *desktop IDEs*, *operating systems*, *technical tools*, and things alike.
+	Get started with *programming languages*, *terminal commands and applications*, *desktop IDEs*, *operating systems*, *technical tools*, and things alike.
 
 	- JetBrains Developer Tools
 - How to
