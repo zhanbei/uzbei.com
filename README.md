@@ -10,6 +10,7 @@ Blogs of Yu Zhanbei, technically and personally.
 - /an-implementation-of-soft-deletion
 - /content-management-of-a-blog-site
 - /followers-followings-and-separated-accounts
+- /the-design-of-entities-editor
 - /things-to-be-carried
 - /how-to
 	- /start-a-project
@@ -21,6 +22,7 @@ Blogs of Yu Zhanbei, technically and personally.
 - An Implementation of Soft Deletion
 - Content Management of a Blog Site
 - Followers, Followings, and Multiple/Separated Accounts
+- The Design of Entities Editor
 - Things to be Carried
 - Get Started With
 
