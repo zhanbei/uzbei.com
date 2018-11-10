@@ -14,7 +14,16 @@ keys:
 
 Get started with [JetBrains Developer Tools](https://www.jetbrains.com/ "JetBrains: Developer Tools for Professionals and Teams").
 
+## Keymap
+
+Set up custom shortcuts in the `Settings > Keymap` section.
+
+- Add `Ctrl + Esc` to `Close` anything;
+- Add `Ctrl + Alt + L` to `Reformat Code`;
+
 ## Editor
+
+Configure editors in the `Settings > Keymap` section.
 
 - Code Style
 	- _
@@ -29,20 +38,17 @@ Get started with [JetBrains Developer Tools](https://www.jetbrains.com/ "JetBrai
 			- [x] Smart tabs.
 		- Indent: `4`
 
-## Plugins To Be Installed
+## Plugins
 
-- Edit Files in Vim Mode [`Recommended`]
+Here listed some plugins recommended to be installed.
+
+- Edit Files in Vim Mode [`recommended`]
 	- [Idea Vim](https://github.com/JetBrains/ideavim "Vim emulation"): a vim emulation.
 - Support Bash Files [`optional`]
 	- [Bash Support](https://github.com/jansorg/BashSupport "Bash Support")
 - Markdown [`optional`]
 	- [Markdown Support](https://github.com/vsch/idea-multimarkdown "Markdown support")
 - Gitignore [`optional`]
-
-## Setup Shortcuts
-
-- Add `Ctrl + Esc` to `Close` anything;
-- Add `Ctrl + Alt + L` to `Format Code`;
 
 ## Languages & Frameworks
 
@@ -53,6 +59,6 @@ Get started with [JetBrains Developer Tools](https://www.jetbrains.com/ "JetBrai
 	- [x] Coding assistant for Node.js
 
 
-## Configurations
+## Other Configurations
 
 - Enable `Autoscroll from Source`
