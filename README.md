@@ -14,6 +14,8 @@ Blogs of Yu Zhanbei, technically and personally.
 - /things-to-be-carried
 - /get-started-with
 	- /jetbrains-developer-tools
+- /introducing
+	- /some-chrome-extensions-that-help-developers.md
 - /how-to
 	- /start-a-project
 	- /seek-suggestions-and-get-inspirations
@@ -31,6 +33,11 @@ Blogs of Yu Zhanbei, technically and personally.
 	Get started with *programming languages*, *terminal commands and applications*, *desktop IDEs*, *operating systems*, *technical tools*, and things alike.
 
 	- JetBrains Developer Tools
+- Introducing `[AD]`
+
+	Introducing some tools/softwares/libraries/frameworks/websites/products.
+
+	- Some Chrome Extensions that Help Developers
 - How to
 	- Seek Suggestions and Get Inspirations
 	- Start a Project
