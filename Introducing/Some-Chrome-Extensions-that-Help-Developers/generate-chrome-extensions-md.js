@@ -66,8 +66,8 @@ for (let i = 0; i < sections.length; i++) {
 		const ext = section.extensions[ii];
 		out += `- ${ext.name} - [\n`;
 		out += `[Github](${ext.github}) \`${itoa(ext.stars)}\` Stars |\n`;
-		// out += `[WebStore](${ext.webStore}) - **${ext.rating}** / 5 Rating - **${itoa(ext.rates)}** / ${itoa(ext.rates)} Rates\n`;
-		out += `[WebStore](${ext.webStore}) - Rating(**${ext.rating}**/5) - Rates(**${itoa(ext.rates)}**/${itoa(ext.rates)})\n`;
+		// out += `[WebStore](${ext.webStore}) - **${ext.rating}** / 5 Rating - **${itoa(ext.rates)}** / ${itoa(ext.users)} Rates\n`;
+		out += `[WebStore](${ext.webStore}) - Rating(**${ext.rating}**/5) - Rates(**${itoa(ext.rates)}**/${itoa(ext.users)})\n`;
 		out += `]\n\n\t> ${ext.description}\n\n`;
 	}
 }
