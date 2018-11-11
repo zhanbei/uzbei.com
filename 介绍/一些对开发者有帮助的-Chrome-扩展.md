@@ -32,8 +32,8 @@ keys:
 
 	另可参见：
 
-	- 知乎问答 - 如何优雅地使用 Vimium？ -
-	https://www.zhihu.com/question/23483616
+	- 知乎问答 -
+	[如何优雅地使用 Vimium？](https://www.zhihu.com/question/23483616)
 
 - Markdown Here - [
 [Github](https://github.com/adam-p/markdown-here) `33,279` Stars |
@@ -45,18 +45,18 @@ keys:
 	> 把你以 Markdown 语法写下的电子邮件变得很漂亮。
 
 	Markdown Here 提供了一个鼠标右键快捷键 “Markdown Toggle” 来渲染你在富文本编辑框中写的 markdown 语法的文本。
-	由此写邮件/博客/知乎问答等时，你便可以使用 Markdown 语法，并在发送/保存/发布前使用 Markdown Here 渲染为排版优美的内容。
+	由此写邮件/博客/ ~~知乎问答~~ 等时，你便可以使用 Markdown 语法，并在发送/保存/发布前使用 Markdown Here 渲染为排版优美的内容。
 
 	另可参见：
 
-	- 知乎搜索 - Markdown -
-	https://www.zhihu.com/search?type=content&q=Markdown
-	- 知乎问答 - 怎样引导新手使用 Markdown？ -
-	https://www.zhihu.com/question/20409634
-	- 知乎问答 - 使用Markdown编辑器是一种怎样的习惯？ -
-	https://www.zhihu.com/question/36180284
-	- 知乎问答 - 用 Markdown 写作用什么文本编辑器？ -
-	https://www.zhihu.com/question/19637157
+	- 知乎搜索 -
+	[Markdown](https://www.zhihu.com/search?type=content&q=Markdown)
+	- 知乎问答 -
+	[怎样引导新手使用 Markdown？](https://www.zhihu.com/question/20409634)
+	- 知乎问答 -
+	[使用Markdown编辑器是一种怎样的习惯？](https://www.zhihu.com/question/36180284)
+	- 知乎问答 -
+	[用 Markdown 写作用什么文本编辑器？](https://www.zhihu.com/question/19637157)
 
 ## Github 相关的一些扩展
 
@@ -86,32 +86,32 @@ keys:
 
 	另可参见：
 
-	- 知乎搜索 - Octotree -
-	https://www.zhihu.com/search?type=content&q=Octotree
+	- 知乎搜索 -
+	[Octotree](https://www.zhihu.com/search?type=content&q=Octotree)
 
 
 ## 另可参见：
 
-- 知乎搜索 - Chrome -
-https://www.zhihu.com/search?type=content&q=Chrome
-- 知乎搜索 - Chrome 扩展 -
-https://www.zhihu.com/search?type=content&q=Chrome%20%E6%89%A9%E5%B1%95
-- 知乎搜索 - Chrome 扩展 开发者 -
-https://www.zhihu.com/search?type=content&q=chrome+%E6%89%A9%E5%B1%95+%E5%BC%80%E5%8F%91%E8%80%85
-- 知乎问答 - 如何优雅地使用 Chrome？ -
-https://www.zhihu.com/question/20595240
-- 知乎问答 - Chrome 应用商店里有哪些值得推荐的扩展？ -
-https://www.zhihu.com/question/20054116
-- 知乎专栏 - Glowin - 如何将 Chrome 变成开发利器，开发者们在用这些插件 -
-https://zhuanlan.zhihu.com/p/21457604
-- 知乎专栏 - 九章算法 - ninechapter - 优秀程序员都在用哪些Chrome拓展工具？ -
-https://zhuanlan.zhihu.com/p/33881561
+- 知乎搜索 -
+[Chrome](https://www.zhihu.com/search?type=content&q=Chrome)
+- 知乎搜索 -
+[Chrome 扩展](https://www.zhihu.com/search?type=content&q=Chrome%20%E6%89%A9%E5%B1%95)
+- 知乎搜索 -
+[Chrome 扩展 开发者](https://www.zhihu.com/search?type=content&q=chrome+%E6%89%A9%E5%B1%95+%E5%BC%80%E5%8F%91%E8%80%85)
+- 知乎问答 -
+[如何优雅地使用 Chrome？](https://www.zhihu.com/question/20595240)
+- 知乎问答 -
+[Chrome 应用商店里有哪些值得推荐的扩展？](https://www.zhihu.com/question/20054116)
+- 知乎专栏 - Glowin -
+[如何将 Chrome 变成开发利器，开发者们在用这些插件](https://zhuanlan.zhihu.com/p/21457604)
+- 知乎专栏 - 九章算法 -
+[ninechapter - 优秀程序员都在用哪些Chrome拓展工具？](https://zhuanlan.zhihu.com/p/33881561)
 
 *请谨慎筛选并使用安全的扩展应用。*
 
-- Chrome 网上应用店 - 搜索 - qr code -
-https://chrome.google.com/webstore/search/qr%20code?_category=extensions
-- Chrome 网上应用店 - 搜索 - nightmode -
-https://chrome.google.com/webstore/search/night%20mode?_category=extensions
-- Chrome 网上应用店 - 搜索 - screenshot -
-https://chrome.google.com/webstore/search/screenshot?_category=extensions
+- Chrome 网上应用店 - 搜索 -
+[qr code](https://chrome.google.com/webstore/search/qr%20code?_category=extensions)
+- Chrome 网上应用店 - 搜索 -
+[nightmode](https://chrome.google.com/webstore/search/night%20mode?_category=extensions)
+- Chrome 网上应用店 - 搜索 -
+[screenshot](https://chrome.google.com/webstore/search/screenshot?_category=extensions)
