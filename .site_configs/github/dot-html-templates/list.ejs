@@ -14,14 +14,13 @@
 
 	<h1><%= node.title %></h1>
 
-	<% for(let i = 0; i < node.files.length; i++){
-		const item = node.files[i];
+	<% nodes.map(item => {
 		if (item.isDirectory) {
 
 		} else if (item.isFile && item.toFilePlainName) {
 
 		} else {
-			continue;
+			return;
 		}
 		const link = {
 			name: item.title,
@@ -31,7 +30,7 @@
 	<p>
 		<a href="<%= link.href %>"><%= link.name %></a>
 	</p>
-	<% } %>
+	<% }); %>
 
 </article>
 
