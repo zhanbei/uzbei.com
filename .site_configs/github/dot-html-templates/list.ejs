@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-	<title><%= title %></title>
+	<title><%= node.title %></title>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122871324-1"></script>
 	<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-122871324-1');</script>
 	<link type="text/css" rel="stylesheet" href="/assets/styles/github-flavored-markdown-pilcrow-hljs.min.css">
@@ -12,20 +12,20 @@
 
 <article class="markdown-body">
 
-	<h1><%= title %></h1>
+	<h1><%= node.title %></h1>
 
-	<% for(let i = 0; i < files.length; i++){
-		const node = files[i];
-		if (node.isDirectory) {
+	<% for(let i = 0; i < node.files.length; i++){
+		const item = node.files[i];
+		if (item.isDirectory) {
 
-		} else if (node.isFile && node.urlPlainName) {
+		} else if (item.isFile && item.toFilePlainName) {
 
 		} else {
 			continue;
 		}
 		const link = {
-			name: node.title,
-			href: node.isFile ? node.urlPlainName + '.html' : node.urlName,
+			name: item.title,
+			href: item.isFile ? item.toFilePlainName + '.html' : item.toFileName,
 		};
 	%>
 	<p>
