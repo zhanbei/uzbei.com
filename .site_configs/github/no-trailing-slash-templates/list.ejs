@@ -7,7 +7,6 @@
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122871324-1"></script>
 	<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-122871324-1');</script>
 	<link type="text/css" rel="stylesheet" href="/assets/styles/github-flavored-markdown-pilcrow-hljs.min.css">
-	<base href="<%= node.toFileName %>/">
 </head>
 <body>
 
@@ -25,7 +24,7 @@
 		}
 		const link = {
 			name: item.title,
-			href: item.isFile ? item.toFilePlainName : item.toFileName,
+			href: path.join('/', node.toFilePath, item.isFile ? item.toFilePlainName : item.toFileName),
 		};
 	%>
 	<p>
