@@ -17,7 +17,7 @@
 	<% nodes.map(item => {
 		if (item.isDirectory) {
 
-		} else if (item.isFile) {
+		} else if (item.isFile && item.isMarkdownFile) {
 
 		} else {
 			return;
