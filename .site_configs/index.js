@@ -1,10 +1,13 @@
 'use strict';
 
 const path = require('path');
-// The selected templates.
-const templates = require('./github/no-trailing-slash-templates/configs');
+// The selected templates, which will override the default configs.
+const templates = require('./github/templates/configs');
+// The selected mode, which will override the default configs.
+const mode = require('./github/no-trailing-slash-templates/configs');
 
-module.exports = {
+// The default configs for the markdown site.
+const configs = {
 	title: 'Yu Zhanbei\'s Site',
 
 	inputDir: path.resolve(__dirname, '..'),
@@ -18,11 +21,14 @@ module.exports = {
 	nameConverter: (name) => name.toLowerCase(),
 
 	// Generate site in the no-trailing-slash mode, if true.
-	noTrailingSlash: templates.noTrailingSlash,
+	noTrailingSlash: false,
 	// Generate site in the trailing-slash mode, if true and !noTrailingSlash.
-	trailingSlash: templates.trailingSlash,
+	trailingSlash: false,
 
-	assetsDir: templates.assetsDir,
-	mdPageTemplate: templates.mdPageTemplate,
-	mdListTemplate: templates.mdListTemplate,
+	// The default configures used, which will be override by selected templates and mode.
+	assetsDir: path.resolve(__dirname, 'not-existed/assets'),
+	mdPageTemplate: path.resolve(__dirname, 'not-existed/templates/page.ejs'),
+	mdListTemplate: path.resolve(__dirname, 'not-existed/templates/list.ejs'),
 };
+
+module.exports = Object.assign(configs, templates, mode);
