@@ -22,13 +22,9 @@
 		} else {
 			return;
 		}
-		const link = {
-			name: item.title,
-			href: path.join('/', item.isFile ? path.dirname(item.toFilePath) : item.toFilePath) + '/',
-		};
 	%>
 	<p>
-		<a href="<%= link.href %>"><%= link.name %></a>
+		<a href="<%= item.href %>"><%= item.title %></a>
 	</p>
 	<% }); %>
 
