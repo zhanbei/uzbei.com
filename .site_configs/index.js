@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./no-trailing-slash');
+module.exports = require('./github/no-trailing-slash-templates/configs');
