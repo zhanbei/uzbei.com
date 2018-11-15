@@ -1,10 +1,11 @@
+'use strict';
+
 const path = require('path');
-const configs = require('../no-trailing-slash-templates/configs');
 
 module.exports = {
-	...configs,
-	outputDir: path.resolve(__dirname, '../.site_test'),
-	mdPageTemplate: path.resolve(__dirname, 'github/dot-html-templates/page.ejs'),
-	mdListTemplate: path.resolve(__dirname, 'github/dot-html-templates/list.ejs'),
+	trailingSlash: true,
 	noTrailingSlash: false,
+	assetsDir: path.resolve(__dirname, '../assets'),
+	mdPageTemplate: path.resolve(__dirname, 'page.ejs'),
+	mdListTemplate: path.resolve(__dirname, 'list.ejs'),
 };
