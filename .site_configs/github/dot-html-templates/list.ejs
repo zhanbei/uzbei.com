@@ -17,14 +17,14 @@
 	<% nodes.map(item => {
 		if (item.isDirectory) {
 
-		} else if (item.isFile && item.toFilePlainName) {
+		} else if (item.isFile) {
 
 		} else {
 			return;
 		}
 		const link = {
 			name: item.title,
-			href: item.isFile ? item.toFilePlainName + '.html' : item.toFileName,
+			href: path.join('/', item.toFilePath) + (item.isFile ? '' : '/'),
 		};
 	%>
 	<p>
