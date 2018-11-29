@@ -7,7 +7,7 @@ const configures = require('./github/no-trailing-slash-templates/configs');
 
 // The default configs for the markdown site.
 module.exports = Object.assign({
-	title: 'Yu Zhanbei\'s Site',
+	title: 'Yu Zhanbei\'s Blog',
 
 	inputDir: path.resolve(__dirname, '..'),
 	outputDir: path.resolve(__dirname, '../.site'),
